@@ -1,4 +1,4 @@
-@media (max-width: 344px) {
+@media (max-width: 768px) {
     body{
         width: 100%;
     }
@@ -7,31 +7,35 @@
         width: 100px;
     }
 
-    header {
-        font-size: 16px;
-        height: 100%;
+    .nav-bar {
+        justify-content: flex-start;
+    }
+
+    .navLinks {
         display: flex;
-    
-
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navLinks a{
+        margin: 0;
     }
 
-    nav .navLinks a {
+    .tickets {
+        padding: 20px;
+    }
+
+    footer .logo {
         padding: 0;
-
+    }
+    .container {
+        padding: 20px;
     }
 
-    #content {
-        width: 100%;
-        max-width: 100%;
+    .copy {
+        margin: 10px 0;
     }
 
-    .main-title {
-        width: 344px;
-        padding: 30px;
-        font-size: 20px
-    }
-
-    .main-text {
-        padding: 30px;
+    .disclaimer {
+        margin: 10px 0;
     }
 }
