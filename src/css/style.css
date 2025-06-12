@@ -59,6 +59,7 @@ header {
     color: #ffffff;
     font-family: 28px;
     cursor: pointer;
+    border: none;
 }
 
 /* main part */
