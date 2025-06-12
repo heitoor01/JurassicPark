@@ -29,6 +29,7 @@
 
     .menu-toggle {
         display: block;
+        border: none;
     }
 
     .tickets {
