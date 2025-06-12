@@ -11,13 +11,24 @@
         justify-content: flex-start;
     }
 
-    .navLinks {
-        display: flex;
+    .nav-links {
+        display: none;
         flex-direction: column;
-        align-items: flex-start;
+        background-color: #701e1e;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
     }
-    .navLinks a{
-        margin: 0;
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .tickets {
