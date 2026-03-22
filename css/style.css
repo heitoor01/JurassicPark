@@ -1,8 +1,75 @@
+:root {
+    --parchment: #edede9ff;
+    --dust-grey: #d6ccc2ff;
+    --linen: #f5ebe0ff;
+    --powder-petal: #e3d5caff;
+    --almond-silk: #d5bdafff;
+}
+
 * {
     margin: 0;
 }
 
 header {
-    background-color: #e0dbdb;
     padding: 10px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #b21e35;
+    color: #f1f1f1;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation {
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.navigation>a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.navigation>a:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+.theme > button {
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 60% 40% 50% 50% / 40% 50% 60% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.theme > button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
